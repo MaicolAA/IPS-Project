@@ -16,10 +16,7 @@ class perfilDoctorController extends Controller
 
             $perfilDoctor = User::where('id', $idP)->get();
 
-
             return view('perfiles.perfilDoctor', compact('perfilDoctor'));
-
-
         }
     }
 }

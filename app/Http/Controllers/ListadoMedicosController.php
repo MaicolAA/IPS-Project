@@ -12,20 +12,9 @@ class ListadoMedicosController extends Controller
     public function listadoMedicos(){
 
         if(Auth::user()->rol == 'paciente'){
-
             $losMedicos = User::where('rol', 'doctor')->get();
-
-
             return view('listados.listadoMedicos', compact('losMedicos'));
-
-
         }
-
-
-
-
-
-
     }
 
 }

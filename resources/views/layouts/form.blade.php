@@ -72,7 +72,7 @@
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 class="text-white">@yield('title', 'Bienvenido al programa más chimba!')</h1>
+              <h1 class="text-white">@yield('title', 'Bienvenido a nuestra IPS!')</h1>
               <p class="text-lead text-light">Creado por Maicol AA</p>
             </div>
           </div>
@@ -87,7 +87,7 @@
 
     @yield('content')
 
-   
+
   <!--   Core   -->
   <script src="{{ asset('/js/plugins/jquery/dist/jquery.min.js') }}"></script>
   <script src="{{ asset('/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>

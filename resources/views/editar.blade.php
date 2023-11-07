@@ -28,6 +28,9 @@
         <label for="email">Correo electrónico:</label>
         <input type="email" name="email" id="email" value="{{ $user->email }}" required>
 
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="empasswordail" value="{{ $user->password }}" required>
+
         <button type="submit">Actualizar</button>
     </form>
 @endsection

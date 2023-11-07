@@ -74,7 +74,7 @@
         <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6">
-              <h1 class="text-white">@yield('title', 'Bienvenido al programa más chimba!')</h1>
+              <h1 class="text-white">@yield('title', 'Bienvenido a IPS Sura')</h1>
               <p class="text-lead text-light">Creado por Maicol AA</p>
             </div>
           </div>
@@ -82,10 +82,10 @@
       </div>
     </div>
 
-    <div class="header bg-gradient-primary py-7 py-lg-8">
+    <div class="bg-gradient-primary">
           <div class="header-body text-center mb-7">
             <div class="row justify-content-center">
-                <a href="https://www.epssura.com/">
+                <a href="https://www.epssura.com/" target="_blank">
                     <img src="{{ asset('/img/brand/suraPanel.jpg') }}">
                 </a>
             </div>
@@ -102,12 +102,12 @@
 
     @yield('content')
 
-    <footer class="py-5">
+    <footer class="py-5 pb-5">
       <div class="container">
         <div class="row align-items-center justify-content-xl-between">
           <div class="col-xl-6">
-            <div class="copyright text-center text-xl-left text-muted">
-              © 2023 <a href="https://www.linkedin.com/in/maicol-arroyave-%C3%A1lvarez-637072210/" class="font-weight-bold ml-1" target="_blank">Maicol Tu Papá</a>
+            <div class="copyright text-center text-xl-left ">
+              <b>© 2023</b> <a href="https://www.linkedin.com/in/maicol-arroyave-%C3%A1lvarez-637072210/" class="font-weight-bold ml-1" target="_blank">Maicol AA Dev</a>
             </div>
           </div>
           <div class="col-xl-6">
@@ -115,11 +115,8 @@
               <li class="nav-item">
                 <a href="https://www.linkedin.com/in/maicol-arroyave-%C3%A1lvarez-637072210/" class="nav-link" target="_blank"></a>
               </li>
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/maicol-arroyave-%C3%A1lvarez-637072210/" class="nav-link" target="_blank">Acerca de nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Licencia de Dios</a>
+              <li class="nav-item text-dark">
+                <a href="https://www.linkedin.com/in/maicol-arroyave-%C3%A1lvarez-637072210/" class="nav-link" target="_blank"><b>Acerca de nosotros</b></a>
               </li>
             </ul>
           </div>
